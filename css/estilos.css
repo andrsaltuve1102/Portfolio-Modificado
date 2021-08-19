@@ -1,0 +1,347 @@
+body{
+font-family: 'Montserrat', sans-serif;
+margin: 0px;
+}
+    
+p, li{
+color: #6a6a6a;
+font-size: 16px;
+}
+    
+h1{
+color: blue;
+font-size: 36px;
+}
+    
+h2{
+font-size: 24px;
+}
+    
+h3{
+font-size: 14px; 
+color:#282828;
+font-weight: 300;
+}
+    
+input, textarea, .btn {
+border-radius: 15px !important;
+margin-top: 15px;
+}
+    
+textarea{
+height: 150px;
+}
+    
+nav .nav-link{
+color: white;
+}
+    
+nav .active{
+border: 1px solid blue;
+border-radius: 20px;
+font-weight: 400;    
+}
+    
+.excavador{
+height: 400px;
+}
+
+.excavador{
+height: 400px;
+}
+    
+#inicio .excavador:hover{
+height: 450px;
+}
+    
+#inicio .input-home p{
+color: blue;
+font-size: 50px;
+font-weight: 600;
+text-align: left;
+}
+    
+#sobre-mi{
+background-image: url(../images/portada2.jpg);
+background-repeat: no-repeat;
+background-size: 120%;
+}
+    
+#sobre-mi .card{
+height: 182px;
+    }
+    
+#idioma .card-idioma{
+border-radius: 15px;
+}
+    
+#idioma .card{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,28,121,0.8491771708683473) 100%, rgba(47,6,26,1) 100%, rgba(0,212,255,1) 100%);;
+border-radius: 15px;
+padding: 40px 0;
+}
+    
+#idioma{
+background-color: #eee;
+}
+    
+#idioma h2{
+font-size: 16px;
+font-weight: 600px;
+}
+    
+#idioma ul{
+padding: 0px;
+font-size: 14px;
+color: #282828;
+list-style-type: none;
+}
+    
+#idioma .fas{
+font-size: 80px;
+color: white;
+}
+    
+#experiencias h2, #experiencias h4 {
+color: blue;
+}
+    
+#experiencias h2, #formacion h2 {
+font-weight: 400;
+font-size: 24px
+}
+    
+#formacion h2, #formacion h4{
+color: blue;
+}
+    
+#experiencias h3, #formacion h3{
+color: #6A6A6A;
+font-size: 18px;
+font-weight: 600;
+}
+    
+#experiencias h4, #formacion h4{
+font-size: 17px;    
+    }
+
+#experiencias h5, #formacion h5{
+color: #6A6A6A;
+font-size: 14px;
+}
+    
+#proyectos{
+background-image: url(../images/portada2.jpg);
+background-repeat: no-repeat;
+background-size: 120%;
+}
+    
+#proyectos .card p{
+height: 90px
+}
+    
+#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a{
+color: blue;
+}
+    
+#proyectos footer .fa-github, #sobre-mi footer .fa-github{
+font-size: 30px;
+color: blue;
+}
+    
+#proyectos footer .fa-linkedin-in{
+color: white;
+background-color: blue;
+}
+    
+#proyectosh2{
+font-size: 16px;
+text-transform: uppercase;
+color: white;
+padding: 0px;
+margin: 0px;
+}
+    
+#proyectos p{
+font-size: 14px;
+}
+    
+#proyectos img{
+height: 177px;
+}
+    
+#contacto{
+background-image: url(../images/portada2.jpg);
+background-size: 120%;
+background-repeat: no-repeat;
+}
+#inicio {
+background-image: url(../images/portada2.jpg);
+background-size: 120%;
+background-repeat: no-repeat;
+}
+    
+#proyectos {
+background-image: url(../images/portada2.jpg);
+background-size: 120%;
+background-repeat: no-repeat;
+}
+    
+#proyectos h2 {
+font-size: 16px;
+text-transform: uppercase;
+color: white;
+padding: 0px;
+margin: 0px;
+}
+    
+#proyectos img {
+height: 210px;
+}
+    
+#proyectos .card p{
+height: 90px;
+}
+    
+.img-circle {
+margin: 1em auto;
+display: block;
+background-color: #fff;
+padding: 10px;
+border-radius: 50%;
+}
+    
+.img-fluid {
+max-width: 100%;
+height: 70%;
+}
+    
+.baw {
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter: grayscale(100%);
+}
+    
+.baw:hover {
+-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+filter:grayscale(0%);
+}
+    
+.color-gradiente{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,28,121,0.8491771708683473) 100%, rgba(47,6,26,1) 100%, rgba(0,212,255,1) 100%);
+}
+    
+.btn {
+color:white;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,28,121,0.8491771708683473) 100%, rgba(47,6,26,1) 100%, rgba(0,212,255,1) 100%);
+border: none;
+}
+    
+.btn-cv{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,28,121,0.8491771708683473) 100%, rgba(47,6,26,1) 100%, rgba(0,212,255,1) 100%);;
+color: white;
+font-weight: bold;
+border-radius: 15px;    
+}
+
+    
+.link-rojo a{
+color: blue;
+text-decoration: none;
+}
+    
+.btn:hover{
+color: white;
+background-color:#370a6d;
+}
+    
+footer, footer a{
+color:blue;
+font-weight: 500;
+}
+    
+    
+footer .fa-linkedin-in{
+color: white;
+background-color: blue;
+font-size: 20px;
+border: 0px;
+height: 32px;
+width: 32px;
+text-align: center;
+padding: 8px 0 0 0;
+border-radius: 80px;
+margin: 0 8px;
+}    
+
+footer .fa-github{
+font-size: 30px;
+color: blue;
+}
+        
+.whatsapp{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,28,121,0.8491771708683473) 100%, rgba(47,6,26,1) 100%, rgba(0,212,255,1) 100%);
+color: white;
+width: 60px;
+border-top-left-radius: 10px ;
+border-top-right-radius: 10px ;
+font-size: 30px;
+text-align: center;
+padding: 8px 0 15px 0;
+right:80px;
+position: fixed;
+bottom: 0px;
+}
+    
+.whatsapp a{
+color: white;
+}
+    
+@media (max-width: 750px) { /* Se usa para Teléfonos móviles */
+    
+#inicio, #contacto, #sobre-mi, #proyectos{
+background-image: url(../images/portada2.jpg);
+background-size: auto;
+}
+
+#inicio .excavador{
+background-size: 50%;
+vertical-align: middle;
+}
+    
+#inicio .input-home p {
+color: #E20000;
+border: 1px solid blue;
+}        
+    
+footer a{
+color: blue;
+}    
+}
+    
+.qr{
+margin-top: 50px;
+color:blue;
+font-weight: bold;
+}
+
+.qrimg{
+max-width: 100%;
+height: 50%;
+margin-top: 10px;
+}
+
+
+.principal .degrade {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(2, 0, 36, 0.3) 31%,
+      rgba(2, 0, 36, 0) 100%
+    );
+}
