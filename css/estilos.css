@@ -1,3 +1,8 @@
+
+
+
+
+
 body{
 font-family: 'Montserrat', sans-serif;
 margin: 0px;
@@ -61,11 +66,7 @@ font-weight: 600;
 text-align: left;
 }
     
-#sobre-mi{
-background-image: url(../images/portada2.jpg);
-background-repeat: no-repeat;
-background-size: 120%;
-}
+
     
 #sobre-mi .card{
 height: 182px;
@@ -171,22 +172,112 @@ font-size: 14px;
 height: 177px;
 }
     
-#contacto{
-background-image: url(../images/portada2.jpg);
-background-size: 120%;
-background-repeat: no-repeat;
-}
+
+
 #inicio {
 background-image: url(../images/portada2.jpg);
-background-size: 120%;
+width: 100%;
+height: auto;
+background-size: cover;
+position: relative;
 background-repeat: no-repeat;
 }
-    
+
+#inicio .row{
+    position: relative;
+}
+#inicio:before {
+content: "";
+width: 100%;
+height: 112%;
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+position: absolute;
+opacity: 0.69;
+}
+
+
+
+
+#sobre-mi {
+background-image: url(../images/portada2.jpg);
+width: 100%;
+height: 680px;
+background-size: cover;
+position: relative;
+background-repeat: no-repeat;
+}
+
+#sobre-mi .row, .color-gradiente{
+    position: relative;
+}
+
+
+#sobre-mi:before {
+content: "";
+width: 100%;
+height: 107%;
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+position: absolute;
+opacity: 0.69;
+}
+
+
+
 #proyectos {
 background-image: url(../images/portada2.jpg);
-background-size: 120%;
+width: 100%;
+height: 680px;
+background-size: cover;
+position: relative;
 background-repeat: no-repeat;
 }
+
+#proyectos .row, .color-gradiente{
+    position: relative;
+}
+
+
+#proyectos:before {
+content: "";
+width: 100%;
+height: 100%;
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+position: absolute;
+opacity: 0.69;
+}
+
+
+
+#contacto {
+background-image: url(../images/portada2.jpg);
+width: 100%;
+height: 680px;
+background-size: cover;
+position: relative;
+background-repeat: no-repeat;
+}
+
+#contacto .row, .color-gradiente{
+    position: relative;
+}
+
+
+#contacto:before {
+content: "";
+width: 100%;
+height: 100%;
+background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+position: absolute;
+opacity: 0.69;
+}
+
+
+
+
     
 #proyectos h2 {
 font-size: 16px;
