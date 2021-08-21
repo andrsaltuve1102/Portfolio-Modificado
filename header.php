@@ -30,7 +30,7 @@
                         <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
                             <li class="nav-item">
-                                <a class="nav-link" href="index.php">ES</a>
+                                <a class="nav-link" href="proyectos.html">ES</a>
                             </li>
 
                             <li class="nav-item">

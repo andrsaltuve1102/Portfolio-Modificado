@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 $pg="inicio";
 
@@ -41,7 +44,7 @@ $pg="inicio";
         </div>
     </main>
 
-    <?php include_once("footer.php"); ?>
+<?php include_once("footer.php"); ?>
     
     <div class="whatsapp">
         <a href="https://api.whatsapp.com/send?phone=54117361310" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
