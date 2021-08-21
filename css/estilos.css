@@ -396,8 +396,8 @@ color: white;
     
 #inicio{
 background-image: url(../images/Abst_background_016.jpg);
-height: auto;
-width: auto;
+height:"";
+width:"";
 }
 
 #inicio .excavador1{
