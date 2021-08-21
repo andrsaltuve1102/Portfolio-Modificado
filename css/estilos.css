@@ -47,8 +47,8 @@ border-radius: 20px;
 font-weight: 400;    
 }
     
-.excavador{
-height: 400px;
+.excavador1{
+height: 410px;
 }
 
 .excavador{
@@ -56,7 +56,7 @@ height: 400px;
 }
     
 #inicio .excavador:hover{
-height: 450px;
+height: 410px;
 }
     
 #inicio .input-home p{
@@ -175,7 +175,7 @@ height: 177px;
 
 
 #inicio {
-background-image: url(../images/portada2.jpg);
+background-image: url(../images/Abst_background_016.jpg);
 width: 100%;
 height: auto;
 background-size: cover;
@@ -193,7 +193,7 @@ height: 100%;
 background: rgb(255,255,255);
 background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
 position: absolute;
-opacity: 0.69;
+opacity: 0.85;
 }
 
 
@@ -220,14 +220,14 @@ height: 107%;
 background: rgb(255,255,255);
 background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
 position: absolute;
-opacity: 0.69;
+opacity: 0.85;
 }
 
 
 
 #proyectos {
-background-image: url(../images/portada2.jpg);
-width: 100%;
+background-image: url(../images/construction-silhouette.jpg);
+width: auto;
 height: auto;
 background-size: cover;
 position: relative;
@@ -246,13 +246,13 @@ height: 100%;
 background: rgb(255,255,255);
 background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
 position: absolute;
-opacity: 0.69;
+opacity: 0.85;
 }
 
 
 
 #contacto {
-background-image: url(../images/portada2.jpg);
+background-image: url(../images/20943953.jpg);
 width: 100%;
 height: auto;
 background-size: cover;
@@ -394,20 +394,49 @@ color: white;
     
 @media (max-width: 750px) { /* Se usa para Teléfonos móviles */
     
-#inicio, #contacto, #sobre-mi, #proyectos{
-background-image: url(../images/portada2.jpg);
-background-size: auto;
+#inicio{
+background-image: url(../images/Abst_background_016.jpg);
+height: auto;
+width: auto;
 }
 
-#inicio .excavador{
-background-size: 50%;
-vertical-align: middle;
-}
+#inicio .excavador1{
+    height: 410px;
+    }
     
-#inicio .input-home p {
-color: #E20000;
-border: 1px solid blue;
-}        
+    #inicio .excavador{
+        height: 400px;
+        }
+        
+        #inicio .excavador:hover{
+        height: 410px;
+        }
+        
+    #inicio .input-home p {
+    color: #E20000;
+    border: 1px solid blue;
+    }  
+
+#sobre-mi{
+background-image: url(../images/portada2.jpg);
+height:"";
+width: "";
+}
+
+#proyectos{
+background-image: url(../images/construction-silhouette.jpg);
+height:"";
+width: "";
+}
+#contacto{
+background-image: url(../images/20943953.jpg);
+height:"";
+width: "";
+}
+
+
+
+      
     
 footer a{
 color: blue;
