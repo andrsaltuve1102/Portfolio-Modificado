@@ -1,3 +1,10 @@
+<?php
+
+$pg="proyectos";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -15,53 +22,9 @@
 </head>
 
 <body id="proyectos">
-    <header>
-        <nav class="navbar navbar-expand-md">
-            <div class="container">
-                <button class="navbar-toggler" p-0 type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
-                        <li class="nav-item">
-                            <a class="nav-link me-5" href="index.html">Inicio</a>
-                        </li>
+<?php include_once("header.php"); ?>
 
-                        <li class="nav-item">
-                            <a class="nav-link me-5" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link me-5 active" href="proyectos.html">Proyectos</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
-                        </li>
-
-                    </ul>
-                    <form class="btn btn-cv">
-                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="proyectos.html">ES</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="en/project.html">EN</a>
-                            </li>
-
-                        </ul>
-
-                    </form>
-                </div>
-            </div>
-        </nav>
-
-    </header>
     <main class="container">
         <div class="row">
             <div class="col-12 mt-3 mb-5">
@@ -137,21 +100,8 @@
        
     </main>
 
-    <footer class="container">
-        <div class="row mt-5 pb-3">
-            <div class="col-12 col-sm-3 text-center text-sm-start">
-                <a href="https://github.com/andrsaltuve1102" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/andr%C3%A9s-eduardo-altuve-p%C3%A9rez-45ab55116/" target="_blank" title="Linkedin"><i
-                        class="fab fa-linkedin-in"></i></a>
-            </div>
-            <div class="col-12 col-sm-3 text-center text-sm-start pt-2 p-sm-0">
-                Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
-            </div>
-            <div class="col-12 col-sm-3 text-sm-start  pt-2 p-sm-0">
-                <a href="mailto:andrsaltuve1102@gmail.com">andrsaltuve1102@gmail.com</a>
-            </div>
-        </div>
-    </footer>
+    <?php include_once("footer.php"); ?>
+    
     <div class="whatsapp">
         <a href="https://api.whatsapp.com/send?phone=541173613310" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
     </div>

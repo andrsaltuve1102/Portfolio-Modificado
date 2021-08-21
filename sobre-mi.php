@@ -1,3 +1,10 @@
+<?php
+
+$pg="sobre-mi";
+
+?>
+
+
 
 <!DOCTYPE html>
 <html lang="es">
@@ -16,54 +23,8 @@
 </head>
 
 <body id="sobre-mi">
-    <header>
-    <nav class="navbar navbar-expand-md mb-4">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-
-                    <li class="nav-item">
-                        <a class="nav-link me-5" href="index.html">Inicio</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link me-5 active" href="sobre-mi.html">Sobre mí</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link me-5" href="proyectos.html">Proyectos</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                    </li>
-
-                </ul>
-
-                <form class="btn btn-cv">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="sobre-mi.html">ES</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="en/project.html">EN</a>
-                        </li>
-
-                    </ul>
-
-                </form>
-
-            </div>
-        </div>
-    </nav>
-</header>
+    
+<?php include_once("header.php"); ?>
 
 <main>
         <div class="container">
@@ -560,21 +521,8 @@
         </div>
     </main>
 
-    <footer class="container">
-        <div class="row mt-5 pb-3">
-            <div class="col-12 col-sm-3 text-center text-sm-start">
-                <a href="https://github.com/andrsaltuve1102" target="_blank" title="Github"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com" target="_blank" title="Linkedin"><i
-                        class="fab fa-linkedin-in"></i></a>
-            </div>
-            <div class="col-12 col-sm-3 text-center text-sm-start pt-2 p-sm-0">
-                Sponsor <a href="https://depcsuite.com" target="_blank" title="DEPCSUITE">DePC Suite</a>
-            </div>
-            <div class="col-12 col-sm-3 text-sm-start  pt-2 p-sm-0">
-                <a href="mailto:andrsaltuve1102@gmail.com">andrsaltuve1102@gmail.com</a>
-            </div>
-        </div>
-    </footer>
+    <?php include_once("footer.php"); ?>
+    
     <div class="whatsapp">
         <a href="https://api.whatsapp.com/send?phone=541173613310" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
     </div>
