@@ -30,7 +30,7 @@ $pg="sobre-mi";
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 col-12 mt-4">
-                    <h1 class="mt-sm-4 pb-sm-4">Sobre mí</h1>
+                    <h1 class="mt-sm-4 pb-sm-4">About Me</h1>
                     <p class="pb-sm-5">Ingeniero Civil de profesión, apasionado por el desarrollo web</p>
                     <a href="CV/Currículum Ingeniero.pdf" class="btn btn-cv" target="_blank">Descargá mi CV</a>
                     <br></br>

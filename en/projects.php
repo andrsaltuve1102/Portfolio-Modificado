@@ -1,14 +1,12 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+
 $pg="proyectos";
 
 ?>
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -25,7 +23,7 @@ $pg="proyectos";
 
 <body id="proyectos">
 
-<?php include_once("header2.php"); ?>
+<?php include_once("header-en.php"); ?>
 
     <main class="container">
         <div class="row">

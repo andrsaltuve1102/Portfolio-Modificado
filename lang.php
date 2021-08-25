@@ -5,7 +5,7 @@ if(isset($_GET['idk'] )){
         require_once '../portfolio2/index.php';
           
     } elseif ($_GET['idk'] == "en") {
-        require_once '../portfolio2/en/index.php';
+        require_once '../portfolio2/en/home.php';
     }
 }
 ?>
