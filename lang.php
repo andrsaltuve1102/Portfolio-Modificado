@@ -1,6 +1,6 @@
 <?php
 
-if(isset($_GET['idk'])){
+if(isset($_GET['idk'] )){
     if ($_GET ['idk'] == "es") {
         require_once '../portfolio2/index.php';
           
