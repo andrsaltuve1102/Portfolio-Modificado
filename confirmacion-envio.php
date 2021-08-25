@@ -24,7 +24,7 @@ $pg="contacto";
 </head>
 
 
-<body id="contacto">
+<body id="contacto2">
 
 <?php include_once("header.php"); ?>
 
@@ -39,8 +39,10 @@ $pg="contacto";
 
                 
         </main>
-
+        
+        <div class="footer.envio">
         <?php include_once("footer.php"); ?>
+        </div>
         
         <div class="whatsapp">
             <a href="https://api.whatsapp.com/send?phone=541173613310" target="_blank"

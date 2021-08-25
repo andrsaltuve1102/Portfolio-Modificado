@@ -4,6 +4,34 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 $pg="contacto";
 
+if($_POST){
+    $nombre =$_REQUEST['txtNombre'];
+    $correo =$_REQUEST['txtCorreo'];
+    $telefono =$_REQUEST['txtTelefono'];
+    $mensaje =$_REQUEST['txtMensaje'];
+
+    // Para enviar un correo HTML, debe establecerse la cabecera Content-type
+$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+$cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+// Cabeceras adicionales
+$cabeceras .= 'To: andrdaltuve1102@gmail.com'. "\r\n";
+$cabeceras .= 'From: Admin <andresaltuveperez@gmailcom>' . "\r\n";
+
+$para = "andrsaltuve1102@gmail.com";
+$asunto = "Mensaje de Prueba";
+$mensaje = "
+Nombre: $nombre<br>
+Correo: $correo<br>
+Tel&eacute;fono: $telefono<br>
+Mensaje: <br>$mensaje<br>
+";
+
+//Enviarlo
+mail($para, $asunto, $mensaje, $cabeceras);
+header("Location: confirmacion-envio.php");
+}
+
 ?>
 
 
@@ -55,7 +83,7 @@ $pg="contacto";
                         </div>
 
                         <div>
-                            <input type="tel" natelme="txtTelefono id=" txtTelefono" placeholder="Número de Teléfono" mt-5 class="form-control">
+                            <input type="tel" natelme="txtTelefono id=" txtTelefono" placeholder="Teléfono/Whatsapp" mt-5 class="form-control">
                         </div>
 
                         <div>

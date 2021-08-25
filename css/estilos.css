@@ -276,7 +276,29 @@ opacity: 0.69;
 }
 
 
-
+#contacto2 {
+    background-image: url(../images/20943953.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    }
+    
+    #contacto2 .row, .color-gradiente{
+        position: relative;
+    }
+    
+    
+    #contacto2:before {
+    content: "";
+    width: 100%;
+    height: 170%;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
+    position: absolute;
+    opacity: 0.69;
+    }
 
     
 #proyectos h2 {
